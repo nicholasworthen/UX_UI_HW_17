@@ -1,31 +1,80 @@
-#inline-block{
+
+
+.inline-block{
+    border: 2px solid orange;
     display: inline-block;
+    
     vertical-align: top;
 }
-#logo{
-    width: 23%;
-    padding: 1%;
-    text-align: center;
-
+div.inline-block{
+    display: flex;
 }
-nav{
+.logo{
     width: 73%;
     padding: 1%;
+    margin: auto;
+    
 }
+.logoText{
+    background-color: aqua;
+    width: 73%;
+    margin: auto;
+    border: 2px solid black;
+   
+}
+.pageLogo{
+    float: left;
+    width: 23%;
+}
+
+h1{
+    border: 1px solid red;
+    width: 65%;
+    text-align: right;
+    font-family: Volkhov;
+    font-size: 50px;
+    margin: auto;
+    padding-top: 2%;
+}
+
+nav{
+    border: 1px solid purple;
+    width: 65%;
+    margin: auto;
+    padding: 1%; 
+}
+
 ul{
+    display: flex;
+    justify-content: flex-end;
+  
+    border: 2px dashed red;
+}
+
+li{
+    display: inline;
+    list-style-type: none;
+    font-family:"Spline Sans";
+    font-weight: medium;
+    border: 1px solid black;
+    width: 75px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    text-align: center; 
+}
+
+.heroImg{
+    background-color: aqua;
     width: 50%;
-    margin-left: auto;
-}
-
-#heroImg{
-    height: 600px;
     padding 25px;
-
+    margin: auto;
 }
-#content{
+
+.content{
     width: 500px;
     margin: 0 auto;
 }
+
 footer ul{
     display: inline-block;
     vertical-align: top;
